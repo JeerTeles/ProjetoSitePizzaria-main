@@ -1,4 +1,4 @@
-## Site Pizzaria - Responsivo
+## Site Pizzaria Cesar - Responsivo
 ### Desenvolvido com HTML, CSS e JS.
 <div style="display: inline_block" >
     <img aling="center" alt="HTML5" src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
@@ -8,7 +8,7 @@
 </div>
 
 
-### Este projeto é a criação de um site para uma Pizzaria ficticia.
+### Este projeto é a criação de um site para uma Pizzaria.
 
 <p> 
     <img width="1000" height="600" src="src/gif7.gif" >
