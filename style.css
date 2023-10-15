@@ -39,7 +39,6 @@ html {
 .logo {
     width: 70px;
     height: auto;
-    cursor: pointer;
     display: flex;
     align-items: center;
 }
@@ -48,7 +47,7 @@ html {
 .logo h3 {
    color: white;
    font-size: 1.6rem;
-
+    cursor: context-menu;
 }
 
 
@@ -122,6 +121,46 @@ html {
     font-family: 'Indie Flower', cursive;
     margin-bottom: 3rem;
 }
+
+.first-section-acai{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(rgba(29, 29, 29, 0.8), rgba(29, 29, 29, 0.8)), url(./img/ACAI.jpg);
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-section-acai .conteudo-principal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.first-section-acai h1{
+    color: #ffc506;
+    font-size: 6rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+    font-family: 'Indie Flower', cursive;
+}
+
+.first-section-acai h2{
+    color: rgb(177, 177, 177);
+    font-size: 3rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: 'Indie Flower', cursive;
+    margin-bottom: 3rem;
+}
+
 
 .btn button {
     width: 230px;
