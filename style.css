@@ -44,15 +44,15 @@ html {
 }
 
 
-.logo h3 {
+.logo, a h3 {
    color: white;
    font-size: 1.6rem;
-    cursor: context-menu;
+   cursor: pointer;
 }
 
 
-.logo img {
-    width: 100%;
+.logo, a, img {
+    width: auto;
     height: 100%;
 }
 
@@ -383,6 +383,15 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+footer a:hover {
+    color: #ffc506;
 }
 
 @media (max-width: 1200px) {
