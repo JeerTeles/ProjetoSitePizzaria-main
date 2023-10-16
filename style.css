@@ -81,6 +81,10 @@ html {
     color: #ffc506;
 }
 
+.menu-toggle {
+    cursor: pointer;
+}
+
 /* Primeira Seção */
 
 .first-section{
